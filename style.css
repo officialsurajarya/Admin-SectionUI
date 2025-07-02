@@ -1,0 +1,53 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding-top: 6rem;
+}
+
+.table thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn {
+    width: 200px;
+}
+
+#pagination button {
+    min-width: 40px;
+    margin: 0 2px;
+}
+
+#pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.profile-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.profile-card:hover {
+    transform: scale(1.02);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#user-card {
+    scroll-margin-top: 80px;
+}

@@ -1501,8 +1501,8 @@ function renderCards() {
         <div class="col-md-4 col-lg-3 mb-4">
             <div class="profile-card">
                 <img src="${user.img}" alt="${user.name}" class="profile-img">
-                <h5>${user.name}</h5>
-                <p class="text-muted">${user.email}</p>
+                <h5 style="margin-bottom:4px;">${user.name}</h5>
+                <p class="text-muted" style="margin-bottom:2px;">${user.email}</p>
                 <p>📞 ${user.phone}</p>
                 <button class="btn btn-sm btn-outline-primary view-details" data-id="${user.id}">Details</button>
             </div>
